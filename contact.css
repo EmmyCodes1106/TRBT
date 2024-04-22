@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    223deg,
+    rgba(245, 192, 91, 0.5),
+    rgba(175, 194, 186, 0.6)
+  );
+  align-items: center;
+  max-height: 90px;
+  padding: 32px;
+}
+.logo img {
+  width: 150px;
+}
+li {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  display: flex;
+}
+li:hover:nth-child(1) {
+  font-weight: 300;
+  transition: all ease-in-out 1s;
+  color: rgb(159, 155, 155);
+  border: 2px solid rgb(159, 155, 155);
+  border-radius: 4px;
+  padding: 5px;
+}
+li:hover:nth-child(2) {
+  font-weight: 300;
+  transition: all ease-in-out 1s;
+  color: rgb(159, 155, 155);
+  border: 2px solid rgb(159, 155, 155);
+  border-radius: 4px;
+  padding: 5px;
+}
+li:hover:nth-child(3) {
+  font-weight: 300;
+  transition: all ease-in-out 1s;
+  color: rgb(159, 155, 155);
+  border: 2px solid rgb(159, 155, 155);
+  border-radius: 4px;
+  padding: 5px;
+}
+li:nth-child(4) {
+  font-weight: 300;
+  transition: all ease-in-out 1s;
+  color: rgb(159, 155, 155);
+  border: 2px solid rgb(159, 155, 155);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.container {
+  background: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 86vh;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loader {
+  display: flex;
+}
+.wrapper .loader {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+
+.loader .loading {
+  background: linear-gradient(
+    223deg,
+    rgba(245, 192, 91, 0.5),
+    rgba(175, 194, 186, 0.6)
+  );
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin: 0 10px;
+  animation: anime 0.8s ease infinite;
+}
+.loader .loading.one {
+  animation-delay: 0.3s;
+}
+.loader .loading.two {
+  animation-delay: 0.4s;
+}
+.loader .loading.three {
+  animation-delay: 0.5s;
+}
+
+@keyframes anime {
+  0% {
+    width: 30px;
+    height: 30px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
