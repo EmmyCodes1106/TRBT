@@ -20,6 +20,7 @@ nav {
 }
 li {
   list-style: none;
+  margin: 1px;
   padding: 10px;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -68,10 +69,15 @@ li:nth-child(1) {
   text-align: center;
   font-size: 100px;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: wheat;
+  -webkit-text-stroke-color: black;
   z-index: 1;
-  padding-top: 110px;
-  color: black;
+  margin-top: 110px;
+  /* color: rgb(138, 129, 129); */
+  color: wheat;
+}
+h1:hover {
+  color: transparent;
+  transition: all ease-in-out 1s;
 }
 .container img {
   width: 150px;
@@ -84,7 +90,7 @@ li:nth-child(1) {
   border-radius: 10px;
 }
 .container img:hover {
-  background-color: white;
+  background-color: transparent;
   transition: all ease-in-out 1s;
 }
 .back-video {
@@ -97,4 +103,31 @@ li:nth-child(1) {
   left: 0;
   z-index: -1;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 320px) {
+  nav {
+    min-width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  ul {
+    /* margin-left: 140px; */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+  .back-video {
+    width: 700px;
+    overflow: hidden;
+  }
+  .container img {
+    margin: 0;
+    display: flex;
+    width: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
 }
