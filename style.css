@@ -255,7 +255,7 @@ footer .icons a img {
     display: none;
   }
 }
-*/ @media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   body {
     width: 100vw;
   }
@@ -278,7 +278,6 @@ footer .icons a img {
     text-align: start;
     font-size: 70px;
     margin-top: 40px;
-    margin-left: 150px;
     font-family: sans-serif;
   }
   footer {
