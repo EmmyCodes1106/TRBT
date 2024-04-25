@@ -163,3 +163,73 @@ footer .icons {
 footer .icons a img {
   padding: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+  }
+  .back-video {
+    width: 630px;
+    height: 840px;
+    padding: 0;
+    margin: 0;
+  }
+  header nav {
+    width: 630px;
+  }
+  .container img {
+    margin-left: 240px;
+    margin-top: 20px;
+  }
+  .container h1 {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: sans-serif;
+  }
+  footer {
+    margin-top: 75px;
+    width: 630px;
+  }
+  footer .hero_text h1 {
+    display: none;
+  }
+}
+
+/* @media only screen and (max-width: 425px) {
+  body {
+    width: 100vw;
+  }
+  .back-video {
+    width: 630px;
+    height: 840px;
+    padding: 0;
+    margin: 0;
+  }
+  header nav {
+    width: 630px;
+  }
+  .container img {
+    margin-left: 240px;
+    margin-top: 20px;
+  }
+  .container h1 {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: sans-serif;
+  }
+  footer {
+    margin-top: 75px;
+    width: 630px;
+  }
+  footer .hero_text h1 {
+    display: none;
+  }
+} */

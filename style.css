@@ -154,6 +154,41 @@ footer .icons a img {
 @media only screen and (max-width: 600px) {
   body {
     width: 100vw;
+    height: 550px;
+  }
+  .back-video {
+    width: 630px;
+    height: 550px;
+    padding: 0;
+    margin: 0;
+  }
+  header nav {
+    width: 630px;
+  }
+  .container img {
+    margin-left: 240px;
+    margin-top: 20px;
+  }
+  .container h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  footer {
+    margin-top: 75px;
+    width: 630px;
+  }
+  footer .hero_text h1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    width: 100vw;
   }
   .back-video {
     width: 630px;
@@ -179,6 +214,109 @@ footer .icons a img {
   }
   footer {
     margin-top: 75px;
+    width: 630px;
+  }
+  footer .hero_text h1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 750px;
+  }
+  .back-video {
+    width: 750px;
+    height: 560px;
+    padding: 0;
+    margin: 0;
+  }
+  header nav {
+    width: 750px;
+  }
+  .container img {
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+  .container h1 {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: sans-serif;
+  }
+  footer {
+    margin-top: 60px;
+    width: 750px;
+  }
+  footer .hero_text h1 {
+    display: none;
+  }
+}
+*/ @media only screen and (max-width: 375px) {
+  body {
+    width: 100vw;
+  }
+  .back-video {
+    width: 630px;
+    height: 925px;
+    padding: 0;
+    margin: 0;
+  }
+  header nav {
+    width: 630px;
+  }
+  .container img {
+    margin-left: 240px;
+    margin-top: 20px;
+  }
+  .container h1 {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    font-size: 70px;
+    margin-top: 40px;
+    margin-left: 150px;
+    font-family: sans-serif;
+  }
+  footer {
+    margin-top: 150px;
+    width: 630px;
+  }
+  footer .hero_text h1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    width: 630px;
+    height: 1080px;
+  }
+  .back-video {
+    width: 630px;
+    height: 1080px;
+    padding: 0;
+    margin: 0;
+  }
+  header nav {
+    width: 630px;
+  }
+  .container img {
+    margin-left: 240px;
+    margin-top: 20px;
+  }
+  .container h1 {
+    padding: 0;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 100px;
+    font-family: sans-serif;
+  }
+  footer {
+    margin-top: 420px;
     width: 630px;
   }
   footer .hero_text h1 {
