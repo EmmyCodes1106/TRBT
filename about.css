@@ -3,7 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-nav {
+body {
+  background: linear-gradient(
+    223deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(232, 211, 161, 0.6)
+  );
+}
+header nav {
   display: flex;
   justify-content: space-between;
   background: linear-gradient(
@@ -14,22 +21,29 @@ nav {
   align-items: center;
   max-height: 90px;
   padding: 32px;
+  width: 100vw;
 }
-.logo img {
+header nav .logo img {
   width: 150px;
 }
-li {
+header nav ul li {
   list-style: none;
+  margin: 2px;
   padding: 10px;
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-a {
+header nav ul li a {
   text-decoration: none;
   color: black;
 }
-ul {
+header nav ul {
   display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 li:hover:nth-child(1) {
   font-weight: 300;
@@ -59,7 +73,7 @@ li:nth-child(2) {
   font-weight: 300;
   transition: all ease-in-out 1s;
   color: rgb(159, 155, 155);
-  border: 2px solid rgb(159, 155, 155);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 4px;
   padding: 5px;
 }
@@ -69,7 +83,7 @@ li:nth-child(2) {
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 86vh;
+  height: 74vh;
 }
 .wrapper {
   display: flex;
@@ -118,4 +132,34 @@ li:nth-child(2) {
     width: 20px;
     height: 20px;
   }
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    223deg,
+    rgba(208, 153, 153, 0.5),
+    rgba(0, 0, 0, 0.6)
+  );
+  align-items: center;
+  height: 67px;
+  margin: 0;
+  padding: 20px;
+}
+footer nav .logo_foot img {
+  width: 100px;
+}
+footer .hero_text h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+footer .icons {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .icons a img {
+  padding: 10px;
 }
