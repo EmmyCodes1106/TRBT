@@ -164,3 +164,36 @@ footer .icons {
 footer .icons a img {
   padding: 10px;
 }
+
+@media only screen and (max-width: 370px) {
+  body {
+    width: 630px;
+    height: 900px;
+  }
+  header nav {
+    width: 630px;
+  }
+  footer {
+    width: 630px;
+  }
+  footer .hero_text h1 {
+    display: none;
+  }
+  .container {
+    width: 630px;
+    height: 940px;
+    display: block;
+  }
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    height: 900px;
+    width: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
